@@ -1,0 +1,252 @@
+Inicio del jugador 1
+Send(1) -> 49 44 DE 31 34 32 20 01 01
+Receive(1): 49 44 DE 31 34 32 20 01 01
+Send(1) -> 01
+Receive(1): 01
+Send(1) -> 02 57 45 4C 43 4F 4D 45 20 54 4F 20 4D 59 53 45 4C 46 27 53 20 5A 53 4E 45 53 20 53 45 52 56 45 52 2E 00
+Send(~1) -> 04
+Send(1) -> 02 59 4F 55 20 41 52 45 20 54 48 45 20 4F 4E 4C 59 20 55 53 45 52 20 43 4F 4E 4E 45 43 54 45 44 2E 00
+Send(~1) -> 02 5B 55 53 45 52 20 4A 4F 49 4E 53 20 28 31 20 54 4F 54 41 4C 29 5D 00
+Send(1) -> 03
+Send(1) -> 14 01
+Send(1) -> 32
+Receive(1): 04
+Send(~1) -> 04
+Receive(1): 03
+Send(~1) -> 03
+
+Inicio del jugador 2
+Send(2) -> 49 44 DE 31 34 32 20 01 01
+Receive(2): 49 44 DE 31 34 32 20 01 01
+Send(2) -> 01
+Receive(2): 01
+Send(2) -> 02 57 45 4C 43 4F 4D 45 20 54 4F 20 4D 59 53 45 4C 46 27 53 20 5A 53 4E 45 53 20 53 45 52 56 45 52 2E 00
+Send(~2) -> 04
+Send(2) -> 02 32 20 55 53 45 52 53 20 41 52 45 20 43 4F 4E 4E 45 43 54 45 44 2E 00
+Send(~2) -> 02 5B 55 53 45 52 20 4A 4F 49 4E 53 20 28 32 20 54 4F 54 41 4C 29 5D 00
+Send(2) -> 14 01
+Send(2) -> 32
+Receive(2): 02 44 41 56 45 43 41 53 54 3E 48 4F 4C 41 41 41 00
+Send(~2) -> 02 32 3C 44 41 56 45 43 41 53 54 3E 48 4F 4C 41 41 41 00
+Receive(2): 02 44 41 56 45 43 41 53 54 3E 44 41 4C 45 00
+Send(~2) -> 02 32 3C 44 41 56 45 43 41 53 54 3E 44 41 4C 45 00
+Receive(2): 02 44 41 56 45 43 41 53 54 3E 3E 44 00
+Send(~2) -> 02 32 3C 44 41 56 45 43 41 53 54 3E 3E 44 00
+Receive(1): 0A 53 75 70 65 72 20 50 75 79 6F 20 50 75 79 6F 20 54 73 75 75 20 28 4A 61 70 61 6E 29 2E 73 66 63 00
+Send(~1) -> 0A 53 75 70 65 72 20 50 75 79 6F 20 50 75 79 6F 20 54 73 75 75 20 28 4A 61 70 61 6E 29 2E 73 66 63 00
+Receive(2): 0B
+Send(1) -> 0B
+Receive(1): 1E E6 3A 90
+Receive(2): 1E E6 3A 90
+Send(All) -> 1E E6 3A 90
+Receive(1): E5
+Send(~1) -> E5
+Receive(2): E5
+Send(1) -> E5
+Receive(1): 02 00 80 00 00
+Send(2) -> 02 00 80 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(2): 02 00 80 00 00
+Send(1) -> 02 00 80 00 00
+Receive(1): 00 00
+Send(2) -> 00 00
+Receive(1): 00 06
+Send(2) -> 00 00
+Receive(1): 00 06
+Send(2) -> 00 00
+Receive(1): 00 06
+Send(2) -> 00 00
+Receive(1): 00 06
+Send(2) -> 00 00
+Receive(2): 00 00 00 00 00 00 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 06
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 00 00 05 00 05 00 05 00 05
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 05 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 06 00 06 00 06 00 06 00 06 00 06 00 06
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 08 0B
+Send(2) -> 08 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(2): 00 06 00 09 00 09 00 09 00 09 00 09 00 09
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 08 00
+Send(1) -> 08 00
+Send(1) -> 08 00
+Send(1) -> 08 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 00 0B
+Send(2) -> 00 00
+Receive(1): 02 0B 80 00 00
+Send(2) -> 02 00 80 00 00
+Receive(2): 00 09 00 0B 00 0B 00 0B 00 0B
+Send(1) -> 08 00
+Send(1) -> 08 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Send(1) -> 00 00
+Receive(2): 00 0B 02 0B 80 00 00
+Send(1) -> 00 00
+Send(1) -> 02 00 80 00 00
+Receive(1): FE FE FE FE
+Send(~1) -> FE
+Receive(2): FE
+Send(~1) -> FE FE FE
+Receive(2): FE FE FE FD
+Send(1) -> FE FE
+Send(1) -> FE FE
+Send(All) -> FD
+Receive(1): FD 01
+Send(1) -> 01
+Receive(2): 01
