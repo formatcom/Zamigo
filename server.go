@@ -23,7 +23,7 @@ const (
   STATE_PLAY = 4
 )
 
-// ZSNES V1.4.2
+// ZSNES V1.42
 var ID142 = [MEN]byte{0x49, 0x44, 0xDE, 0x31, 0x34, 0x32, 0x20, 0x01, 0x01}
 var ZSET0 = [MEN]byte{0x01}
 var SAVEDATA = [MEN]byte{0x32} // Se asigna a None
