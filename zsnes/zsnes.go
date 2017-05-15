@@ -17,5 +17,6 @@ var PLAYER5 = [config.MEN]byte{0x07}
 var FRAME = [config.MEN]byte{0x00, 0x04}
 
 // DATOS DEL JUEGO
-var GAME = regexp.MustCompile(`.*\.sfc`) // Se valida la extension
+var GAME = regexp.MustCompile(`\.sfc`) // Se valida la extension
+var CHAT = regexp.MustCompile(`\>`) // Se valida la extension
 var GAME0 = [config.MEN]byte{0x0B} // Espera que todos acepten la solicitud
