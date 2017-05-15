@@ -1,190 +1,445 @@
-// Se verifica la version
 Send(1) -> 49 44 DE 31 34 32 20 01 01
 Receive(1): 49 44 DE 31 34 32 20 01 01
-
-// Se habilita el jugador 1
 Send(1) -> 01
 Receive(1): 01
-
-// Se verifica la version
+Send(1) -> 02 57 45 4C 43 4F 4D 45 20 54 4F 20 4D 59 53 45 4C 46 27 53 20 5A 53 4E 45 53 20 53 45 52 56 45 52 2E 00
+Send(~1) -> 04
+Send(1) -> 02 59 4F 55 20 41 52 45 20 54 48 45 20 4F 4E 4C 59 20 55 53 45 52 20 43 4F 4E 4E 45 43 54 45 44 2E 00
+Send(~1) -> 02 5B 55 53 45 52 20 4A 4F 49 4E 53 20 28 31 20 54 4F 54 41 4C 29 5D 00
+Send(1) -> 03
+Send(1) -> 14 01
+Send(1) -> 32
+Receive(1): 04
+Send(~1) -> 04
+Receive(1): 03
+Send(~1) -> 03
 Send(2) -> 49 44 DE 31 34 32 20 01 01
 Receive(2): 49 44 DE 31 34 32 20 01 01
-
-// Se habilita el jugador 1
 Send(2) -> 01
 Receive(2): 01
-
-// Se recibe el juego
+Send(2) -> 02 57 45 4C 43 4F 4D 45 20 54 4F 20 4D 59 53 45 4C 46 27 53 20 5A 53 4E 45 53 20 53 45 52 56 45 52 2E 00
+Send(~2) -> 04
+Send(2) -> 02 32 20 55 53 45 52 53 20 41 52 45 20 43 4F 4E 4E 45 43 54 45 44 2E 00
+Send(~2) -> 02 5B 55 53 45 52 20 4A 4F 49 4E 53 20 28 32 20 54 4F 54 41 4C 29 5D 00
+Send(2) -> 14 01
+Send(2) -> 32
+Receive(2): 02 46 4F 52 4D 41 54 43 4F 4D 3E 41 4A 41 00
+Send(~2) -> 02 32 3C 46 4F 52 4D 41 54 43 4F 4D 3E 41 4A 41 00
+Receive(2): FF
+Send(~2) -> 04
+Send(All) -> 02 5B 55 53 45 52 20 4C 45 46 54 20 28 31 20 52 45 4D 41 49 4E 53 29 5D 00
 Receive(1): 0A 53 75 70 65 72 20 50 75 79 6F 20 50 75 79 6F 20 28 4A 61 70 61 6E 29 2E 73 66 63 00
-// Se envia a todos el juego
 Send(~1) -> 0A 53 75 70 65 72 20 50 75 79 6F 20 50 75 79 6F 20 28 4A 61 70 61 6E 29 2E 73 66 63 00
-
-Receive(2): 0B
 Send(1) -> 0B
-
 Receive(1): 1E E6 32 28
-Receive(2): 1E E6 32 28
 Send(All) -> 1E E6 32 28
-
-// Intentar entender bien esta parte
 Receive(1): E5
 Send(~1) -> E5
-Receive(2): E5
 Send(1) -> E5
-
-// al igual que esta
-Receive(2): 02 00 80 00 00
-Send(1) -> 02 00 80 00 00
 Receive(1): 02 00 80 00 00
-Send(2) -> 02 00 80 00 00
-
-
+Send(1) -> 00 00
 Receive(1): 00 00
-Send(2) -> 00 00
-
+Send(1) -> 00 00
 Receive(1): 00 01
-Send(2) -> 00 00
-
-Receive(2): 00 00
 Send(1) -> 00 00
-
-Receive(2): 00 01
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 01
-Send(2) -> 00 00
-
-Receive(2): 00 01
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 00 03
-Send(2) -> 00 00
-
-Receive(1): 08 03
-Send(2) -> 08 00
-
-Receive(2): 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
-
-Receive(2): 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
 Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 10
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 00
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 02 02 80 00 01
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 00 02
+Send(1) -> 00 00
+Receive(1): 0A 02 80 00 00
 Send(1) -> 08 00
-
-Receive(2): 00 03 00 0B
-Send(1) -> 00 00
-Send(1) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(2): 00 0B
-Send(1) -> 00 00
-
-Receive(2): 00 0B 00 0B
-Send(1) -> 00 00
-Send(1) -> 00 00
-
-Receive(1): 08 0B
-Send(2) -> 08 00
-
-Receive(2): 00 0B
-Send(1) -> 00 00
-
-Receive(1): 08 0B
-Send(2) -> 08 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(2): 00 0B
-Send(1) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(1): 00 0B
-Send(2) -> 00 00
-
-Receive(2): 00 0B
-Send(1) -> 00 00
-
-Receive(2): 00 0B 00 0B
-Send(1) -> 00 00
-Send(1) -> 00 00
+Receive(1): 08 02
+Send(1) -> 08 00
+Receive(1): FE FE FE FE
+Send(~1) -> FE 
+Send(1) -> FE FE
+Send(1) -> FE FE
+Send(All) -> FD
+Receive(1): FD 01
+Send(1) -> 01

@@ -1,18 +1,14 @@
 package config
 
 import (
-  "fmt"
   "os"
   "encoding/json"
 )
-
-const MEN = 0xFF
 
 type Config struct {
   DEBUG bool
   HOST string
   PORT string
-  MEN int
 }
 
 func Get() Config {
@@ -23,10 +19,8 @@ func Get() Config {
   conf := Config{}
   err := decoder.Decode(&conf)
   if err != nil {
-    fmt.Println("Error al cargar la configuracion")
-    os.Exit(1)
+    conf = Config{true, "0.0.0.0", "7845"}
   }
-  conf.MEN = MEN
 
   return conf
 

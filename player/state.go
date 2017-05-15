@@ -7,4 +7,5 @@ const (
   STATE_BOOT = 3
   STATE_LOAD = 4
   STATE_PLAY = 5
+  STATE_PLAY_MASTER = 6
 )
